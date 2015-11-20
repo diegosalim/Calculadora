@@ -37,6 +37,7 @@ public class Tela_Lista extends ListActivity {
         if(Operacao[posi].contains("Soma")) {
             Intent intent = new Intent(Tela_Lista.this, Soma.class);
             startActivity(intent);
+
         }
         if(Operacao[posi].contains("Subtracao")) {
             Intent intent = new Intent(Tela_Lista.this, Subtracao.class);
